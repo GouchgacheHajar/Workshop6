@@ -1,0 +1,25 @@
+<div>
+  <h2>Liste des utilisateurs</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Nom</th>
+        
+    
+<th>Prénom</th>
+      </tr>
+    
+    
+</thead>
+    <tbody>
+      <tr *ngFor="let utilisateur of utilisateurs">
+        
+ 
+<td>{{ utilisateur.nom }}</td>
+        
+   
+<td>{{ utilisateur.prenom }}</td>
+      </tr>
+  </tbody>
+  </table>
+</div>
